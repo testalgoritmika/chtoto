@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(100, 166, 223);
+    padding: 20px;
+}
+
+header a{
+    text-decoration:none;
+    color:white;
+
+}
+
+a:hover{
+    color:rgb(72, 72, 131);
+    transition: all 0.5s linear;
+}
+
+h1{
+    text-align: center;
+    color: rgb(100, 166, 223);
+
+}
+
+.gallery{
+    display:flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+h4{
+    color:rgb(100, 166, 223);
+    background-color: rgb(242, 248, 255);
+}
+
+h1{
+    background-color: rgb(222, 239, 255);
+}
